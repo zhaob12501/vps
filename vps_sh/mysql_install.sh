@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # 第一步
-while
-do
-    if wget -P /usr/local/src/ --no-check-certificate https://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-server_5.7.20-1debian7_amd64.deb-bundle.tar
-    then
-        break
-    fi
-done
+# while
+# do
+#     if wget -P /usr/local/src/ --no-check-certificate https://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-server_5.7.20-1debian7_amd64.deb-bundle.tar
+#     then
+#         break
+#     fi
+# done
 
 # 第二步
 tar vxf mysql-server_5.7.20-1debian7_amd64.deb-bundle.tar

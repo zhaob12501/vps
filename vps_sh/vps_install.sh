@@ -20,7 +20,7 @@ apt-get install libnuma1 -y
 # 安装前置依赖
 apt-get install libpcre3 libpcre3-dev openssl libssl-dev libperl-dev -y
 apt-get install -y gcc python3-dev git 
-apt-get install -y nginx
+apt-get install -y nginx tree
 
 
 if [ -f "/opt/Miniconda3-latest-Linux-x86_64.sh" ]; then
